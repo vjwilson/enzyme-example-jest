@@ -1,8 +1,4 @@
-import React, { PropTypes } from 'react';
-
-const propTypes = {};
-
-const defaultProps = {};
+import React from 'react';
 
 class Foo extends React.Component {
   constructor(props) {
@@ -17,8 +13,5 @@ class Foo extends React.Component {
     );
   }
 }
-
-Foo.propTypes = propTypes;
-Foo.defaultProps = defaultProps;
 
 export default Foo;
